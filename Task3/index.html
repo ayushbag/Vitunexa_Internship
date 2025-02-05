@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogFlow - Modern Blogging Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="tab-link" onclick="openTab(event, 'home')">Home</button>
+        <button class="tab-link" onclick="openTab(event, 'about')">About</button>
+        <button class="tab-link" onclick="openTab(event, 'blog')">Blog</button>
+        <button class="tab-link" onclick="openTab(event, 'contact')">Contact</button>
+    </nav>
+    
+    <div class="container">
+        <div id="home" class="tab-content active">
+            <h1>Welcome to BlogFlow</h1>
+            <p>Your go-to platform for the latest blogs, trends, and insights.</p>
+        </div>
+        
+        <div id="about" class="tab-content">
+            <h1>About Us</h1>
+            <p>BlogFlow is a modern blogging platform where writers share knowledge and creativity.</p>
+        </div>
+        
+        <div id="blog" class="tab-content">
+            <h1>Latest Blogs</h1>
+            <p>Explore the latest blogs curated for you.</p>
+        </div>
+        
+        <div id="contact" class="tab-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us at contact@blogflow.com.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
